@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MenyeW/nodejs-test/issues"
   },
-  "homepage": "https://github.com/MenyeW/nodejs-test#readme"
+  "homepage": "https://github.com/MenyeW/nodejs-test#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
