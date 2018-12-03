@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MenyeW/nodejs-test/issues"
   },
-  "homepage": "https://github.com/MenyeW/nodejs-test#readme"
+  "homepage": "https://github.com/MenyeW/nodejs-test#readme",
+  "dependencies": {
+    "fastify": "^1.13.1"
+  }
 }
