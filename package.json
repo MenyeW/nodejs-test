@@ -1,8 +1,8 @@
 {
   "name": "basic",
   "version": "1.0.0",
-  "description": "Test Environment for a basic nodejs setup",
-  "main": "src",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/MenyeW/nodejs-test.git"
   },
-  "author": "Rahul Bhatnagar",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MenyeW/nodejs-test/issues"
   },
-  "homepage": "https://github.com/MenyeW/nodejs-test#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "homepage": "https://github.com/MenyeW/nodejs-test#readme"
 }
