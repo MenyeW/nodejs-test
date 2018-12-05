@@ -1,8 +1,7 @@
 var express = require('express');
 var app = express();
-var routes = require('./routes');
+require('./routes').route(app);
 
-routes.route(app);
 var port = 3000;
 
-app.listen(port, ()=>{});
+app.listen(port, ()=>{console.log('App running on localhost:'+port)});
