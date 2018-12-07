@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	padding: 0;
+}
+ul.headNavbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	position: -webkit-sticky; /*Safari*/
+	top:0;
+	width:100%;
+	opacity: 0.95;
+}
+ul.headNavbar li{
+	float:left;
+}
+
+ul.headNavbar li a{
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+ul.headNavbar li a:hover{
+	background-color: black;
+}
+
+span.bottomNavbar {
+	margin-top: 20px;
+	border-top: 3px solid;
+	border-top-color: black;
+	background-color: #333;
+	display:block;
+	color: silver;
+}
