@@ -1,12 +1,14 @@
 const fs = require('fs');
 const express = require('express');
 const path = require('path');
+const configController = require('../controllers/configController')
 
 module.exports.route = (app) => {
 	app.get('/css/:css.css',css);
 	app.get('/js/:js.css',js);
 
 	app.get('/', [header,navbar,(req,res,next)=>{res.write('Base Page '.repeat(1000)); next();},bottomNavbar,footer]);
+	app.get('/config', [header, navbar, configController.printConfig, bottomNavbar, footer]);
 }
 
 function css(req,res,next){
